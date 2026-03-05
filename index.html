@@ -3,7 +3,6 @@
 
 <head>
   <meta charset="UTF-8" />
-
   <title>WebStudio</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -37,7 +36,7 @@
 
       <nav class="nav">
 
-        <a href="./index.html" class="logo">
+        <a class="logo" href="./index.html">
           Web<span class="logo-dark">Studio</span>
         </a>
 
@@ -48,11 +47,11 @@
           </li>
 
           <li>
-            <a class="nav-link" href="">Portfolio</a>
+            <a class="nav-link" href="#">Portfolio</a>
           </li>
 
           <li>
-            <a class="nav-link" href="">Contacts</a>
+            <a class="nav-link" href="#">Contacts</a>
           </li>
 
         </ul>
@@ -88,7 +87,7 @@
 
   <section class="hero">
 
-    <div class="container">
+    <div class="container hero-container">
 
       <h1 class="hero-title">
         Effective Solutions for Your Business
@@ -109,11 +108,11 @@
 
     <div class="container footer-container">
 
-      <!-- LEFT -->
+      <!-- LOGO -->
 
       <div class="footer-logo">
 
-        <a class="logo logo-footer" href="./index.html">
+        <a class="logo footer-logo-link" href="./index.html">
           Web<span class="logo-light">Studio</span>
         </a>
 
@@ -201,11 +200,11 @@
           <input
             type="email"
             name="user_email"
-            placeholder="E-mail"
             class="subscribe-input"
+            placeholder="E-mail"
           />
 
-          <button type="submit" class="subscribe-btn">
+          <button type="submit" class="subscribe-button">
 
             Subscribe
 
@@ -230,8 +229,6 @@
 
     <div class="modal">
 
-      <!-- CLOSE BUTTON -->
-
       <button type="button" class="modal-close">
 
         <svg width="8" height="8">
@@ -241,14 +238,12 @@
       </button>
 
 
-      <!-- MODAL FORM -->
-
       <p class="modal-title">
         Leave your contacts and we will call you back
       </p>
 
-      <form class="modal-form">
 
+      <form class="modal-form">
 
         <!-- NAME -->
 
@@ -258,20 +253,12 @@
             Name
           </label>
 
-          <div class="input-wrapper">
-
-            <input
-              id="user-name"
-              name="user_name"
-              type="text"
-              class="form-input"
-            />
-
-            <svg class="input-icon" width="18" height="24">
-              <use href="./images/icons.svg#icon-person"></use>
-            </svg>
-
-          </div>
+          <input
+            id="user-name"
+            name="user_name"
+            type="text"
+            class="form-input"
+          />
 
         </div>
 
@@ -284,20 +271,12 @@
             Phone
           </label>
 
-          <div class="input-wrapper">
-
-            <input
-              id="user-phone"
-              name="user_phone"
-              type="tel"
-              class="form-input"
-            />
-
-            <svg class="input-icon" width="18" height="24">
-              <use href="./images/icons.svg#icon-phone"></use>
-            </svg>
-
-          </div>
+          <input
+            id="user-phone"
+            name="user_phone"
+            type="tel"
+            class="form-input"
+          />
 
         </div>
 
@@ -310,20 +289,12 @@
             Email
           </label>
 
-          <div class="input-wrapper">
-
-            <input
-              id="user-email"
-              name="user_email"
-              type="email"
-              class="form-input"
-            />
-
-            <svg class="input-icon" width="18" height="24">
-              <use href="./images/icons.svg#icon-email"></use>
-            </svg>
-
-          </div>
+          <input
+            id="user-email"
+            name="user_email"
+            type="email"
+            class="form-input"
+          />
 
         </div>
 
@@ -374,8 +345,6 @@
 
         </div>
 
-
-        <!-- BUTTON -->
 
         <button type="submit" class="modal-submit">
           Send
