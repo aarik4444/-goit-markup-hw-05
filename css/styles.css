@@ -1,0 +1,224 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 0;
+  font-family: Roboto, sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+
+/* HEADER */
+
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+
+.logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 0.03em;
+  color: #4d5ae5;
+  margin-right: 76px;
+}
+
+
+.logo-accent {
+  color: #2e2f42;
+}
+
+
+.nav-list {
+  display: flex;
+  gap: 40px;
+}
+
+
+.nav-link {
+  padding: 24px 0;
+  display: block;
+  font-weight: 500;
+}
+
+
+.contacts {
+  margin-left: auto;
+  display: flex;
+  gap: 40px;
+}
+
+
+.contacts-link {
+  font-size: 14px;
+}
+
+
+
+/* HERO */
+
+.hero {
+  background-color: #2e2f42;
+  padding: 188px 0;
+  text-align: center;
+}
+
+
+.hero-title {
+  color: #ffffff;
+  font-size: 56px;
+  max-width: 496px;
+  margin: 0 auto 48px;
+}
+
+
+.hero-button {
+  background-color: #4d5ae5;
+  color: #ffffff;
+  border: none;
+  padding: 16px 32px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+
+
+/* FEATURES */
+
+.features {
+  padding: 120px 0;
+}
+
+
+.features-list {
+  display: flex;
+  gap: 24px;
+}
+
+
+.features-item {
+  width: calc((100% - 72px) / 4);
+}
+
+
+.features-title {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+
+.features-text {
+  font-size: 16px;
+}
+
+
+
+/* TEAM */
+
+.team {
+  background-color: #f4f4fd;
+  padding: 120px 0;
+}
+
+
+.section-title {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 72px;
+}
+
+
+.team-list {
+  display: flex;
+  gap: 24px;
+}
+
+
+.team-item {
+  background-color: #ffffff;
+  border-radius: 4px;
+}
+
+
+.team-info {
+  padding: 32px;
+  text-align: center;
+}
+
+
+.team-name {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+
+.team-position {
+  font-size: 16px;
+}
+
+
+
+/* FOOTER */
+
+.footer {
+  background-color: #2e2f42;
+  padding: 100px 0;
+}
+
+
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+
+.footer-text {
+  max-width: 264px;
+  color: #f4f4fd;
+}
